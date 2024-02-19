@@ -1,9 +1,11 @@
 {% docs __overview__ %}
-# DBT Demo pipeline
+
+### DBT Demo pipeline
 
 Hey, welcome to DBT Demo pipeline documentation!
 
-Here is the schema of our input data:
-![input schema](supports/dbt-dag.png)
+### Lineage Graph
+
+![input schema](assets/dbt-dag.png)
 
 {% enddocs %}
