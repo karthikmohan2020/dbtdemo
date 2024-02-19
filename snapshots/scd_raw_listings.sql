@@ -2,7 +2,7 @@
     
 {{
     config(
-           target_database='airbnb',
+           target_database='demo',
            target_schema='dev',
            unique_key='id',
            strategy='timestamp',
@@ -11,6 +11,6 @@
     )
 }}
     
-SELECT * FROM {{ source('airbnb','listings') }}
+SELECT * FROM {{ source('demo','listings') }}
 
 {% endsnapshot %}

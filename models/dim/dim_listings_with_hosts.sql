@@ -1,8 +1,8 @@
 WITH L AS (
-    SELECT * FROM {{ ref("dim_listings_cleansed")}}
+    SELECT * FROM {{ ref("dim_listings")}}
 ),
 H AS (
-    SELECT * FROM {{ ref("dim_hosts_cleansed")}}
+    SELECT * FROM {{ ref("dim_hosts")}}
 )
 SELECT  
     l.listing_id,

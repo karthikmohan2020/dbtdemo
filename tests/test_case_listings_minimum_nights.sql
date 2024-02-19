@@ -1,6 +1,6 @@
 SELECT
     *
 FROM
-    {{ ref("dim_listings_cleansed") }}
+    {{ ref("dim_listings") }}
 WHERE MINIMUM_NIGHTS < 1
 LIMIT 10
