@@ -1,6 +1,6 @@
 {% docs __overview__ %}
 
-### DBT Demo pipeline
+## DBT Demo pipeline
 
 Hey, welcome to DBT Demo pipeline documentation!
 
