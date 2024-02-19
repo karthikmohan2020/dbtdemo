@@ -1,6 +1,9 @@
-Welcome to your new dbt project!
+Welcome to your new dbtdemo project!
 
-### Using the starter project
+### Dbtdemo
+
+
+### DAG 
 
 Try running the following commands:
 - dbt run
